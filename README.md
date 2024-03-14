@@ -1,5 +1,5 @@
 # Vigenère Cipher in Python
-##This repository contains a simple Python script for encrypting messages using the Vigenère cipher.
+## This repository contains a simple Python script for encrypting messages using the Vigenère cipher.
 
 ## How to Use
 1 - Clone this repository or download the vigenere_cipher.py file.
