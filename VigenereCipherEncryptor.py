@@ -14,13 +14,11 @@ chave = (chaveB * repetitions)[:len(mensagem)]
 listaM = []
 for h in mensagem:
     listaM.append(ord(h) - 97)
-print(listaM)
 
 # Converte para numero e coloca em lista a chave
 listaC = []
 for c in chave:
     listaC.append(ord(c) - 97)
-print(listaC)
     
 # Calcula o tamanho da lista de chaves
 tam_chave = len(listaC)
