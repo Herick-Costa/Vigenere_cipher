@@ -31,14 +31,14 @@ for i in range(len(listaM)):
 
 #print("\nCifra:", cifra)
 
-# Inicializa uma string vazia para armazenar a mensagem decifrada
-mensagem_decifrada = ""
+# Inicializa uma string vazia para armazenar a mensagem criptografada
+mensagem_criptografada = ""
 
 # Converte os números da cifra de volta para letras do alfabeto
 for numero in cifra:
     # Adiciona 97 ao número e converte para caractere ASCII
     letra = chr(numero + 97)
-    # Adiciona a letra decifrada à mensagem
-    mensagem_decifrada += letra
+    # Adiciona a letra criptografada à mensagem
+    mensagem_criptografada += letra
 
-print("\nMensagem criptografada:\n\n", mensagem_decifrada + "\n\n")
+print("\nMensagem criptografada:\n\n", mensagem_criptografada + "\n\n")
